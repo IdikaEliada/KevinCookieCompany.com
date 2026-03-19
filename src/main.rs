@@ -12,7 +12,7 @@ fn main() -> Result<()> {
     match cli.command {
         Commands::Search {
             query,
-            limit,
+            limit,  
             language,
             sort,
             stars,
